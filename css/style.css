@@ -1,0 +1,21 @@
+body{
+			background-color: #406882;
+			color: white;
+		}
+
+		table{
+		    padding: 20px 40px;
+		}
+hr{
+	width: 80%;
+	margin-top: 30px;
+	border-color: white;
+	border-width: 2px;
+}
+h3{
+	color: black;
+	font-size: 25px;
+}
+th{
+	color: black;
+}
