@@ -16,11 +16,14 @@ body{
 
 	
 }
+
 p{
-	font-size: 20px;
-	font-weight: bolder;
+	font-size: 100%;
+	font-weight:bolder;
 	color: blueviolet;
-	letter-spacing: .6em;
+	letter-spacing: .4em;
+	font-family: 'Pacifico', cursive;
+	text-transform: capitalize;
 }
 .upper{
 	width: auto;
@@ -30,16 +33,26 @@ p{
 	
 	
 }
+.lower{
+	margin-top: 20px;
+	width: auto;
+	
+
+	
+}
 #ppic{
-	width: 120px;
-	height: 90px;	
+	width: 10%;
+	height: 10%;
+	
+
 		
 }
 
+
 .img1{
     
-	width: 140px;
-	height: 95px;
+	width: 10%;
+	height: 10%;
 	
 	margin-right: 15%;
 
@@ -49,8 +62,8 @@ p{
 	
 	
 	padding: 20px 0px;
-	width: 180px;
-	height: 110px;
+	width: 15%;
+	height: 12%;
 	position: absolute;
 	left: 20%;
 	
@@ -71,9 +84,9 @@ p{
 
 
 .namearea{
-	font-family: sans-serif;
+	font-family: 'Pacifico', cursive;
 	font-size: 30px;
-	text-transform: capitalize;
+	
 	
 	font-weight: bolder;
 	margin-top: 100px;
@@ -81,11 +94,17 @@ p{
 
 }
 .name{
-	font-size: 30px;
-
+	font-size: 100%;
+    font-family: 'Sacramento', cursive;
 	color: goldenrod;
 }
 
+.name:hover{
+	 
+
+	color: blueviolet;
+	 
+}
 .middle-container{
 	
 	height: 200px;
