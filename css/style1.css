@@ -13,14 +13,14 @@ body{
 	
 	width: auto;
 	padding: 2px;
-	background-color: lightblue;
+	background-color: #FFFDDE;
 	
 
 	
 }
 
 .title1{
-	font-size: 100%;
+	font-size: 150%;
 	font-weight:bolder;
 	color: blueviolet;
 	letter-spacing: .4em;
@@ -36,23 +36,19 @@ body{
 	
 }
 .lower{
-	margin-top: 20px;
+	margin-top: 15px;
 	width: auto;
 
 }
-#ppic{
-	width: 15%;
-	height: 15%;
 
-}
 
 
 .img1{
     
 	width: 10%;
 	height: 10%;
-	margin-top: 8%;
 	
+	margin-top: 4%;
 	margin-right: 15%;
 
 
@@ -92,15 +88,15 @@ body{
 	font-size: 200%;
 		font-family: 'Pacifico', cursive;
 
-	top: 60%;
+	top: 59%;
 	left :30%;
 	right: 30%;
-	bottom: 40%;
+	bottom: 30%;
 	animation: bounce;
 	  animation-duration:5s; /* don't forget to set a duration! */
 	  animation-iteration-count: infinite;
 	position: absolute;
-	color: deepskyblue;
+	color: #00A19D;
  	
 }
 
@@ -111,7 +107,7 @@ body{
 
 .namearea{
 	font-family: 'Pacifico', cursive;
-	font-size: 30px;
+	font-size: 300%;
 
 	font-weight: bolder;
 	margin-top: 100px;
@@ -122,7 +118,7 @@ body{
 	font-size: 100%;
     font-family: 'Sacramento', cursive;
    
-	color: goldenrod;
+	color: #185ADB;
 }
 
 .name:hover{
@@ -132,14 +128,12 @@ body{
 	 
 }
 .middle-container{
-	margin-top: 10px;
+	padding: 10px 5px; 
 	width: auto;
 	background-color:lavenderblush;
 	
 }
 hr{
-	
-	
 	border-color:grey;
 	margin: 10px 40px;
 	border-style: dashed;
@@ -147,6 +141,15 @@ hr{
 .des
 {
 	margin-top: 30px;
+}
+#ppic{
+
+	width: 15%;
+	height: 15%;
+	animation: bounce;
+	animation-timing-function: 10s;
+	  animation-duration:5s; /* don't forget to set a duration! */
+	  animation-iteration-count:infinite;
 }
 
 
