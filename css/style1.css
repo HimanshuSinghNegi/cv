@@ -13,7 +13,8 @@ body{
 	
 	width: auto;
 	padding: 2px;
-	background-color: #FFFDDE;
+	background: linear-gradient(180deg, #E3E8AF 0%, rgba(230, 176, 176, 0.947259) 10.73%, rgba(229, 231, 153, 0.898519) 27.4%, rgba(226, 178, 178, 0.852825) 43.02%, rgba(223, 219, 126, 0.46764) 48.23%, rgba(213, 186, 186, 0.53) 61.77%, rgba(212, 186, 186, 0.455208) 99.99%, rgba(196, 196, 196, 0) 100%);
+
 	
 
 	
