@@ -13,8 +13,8 @@ body{
 	
 	width: auto;
 	padding: 2px;
-	background: linear-gradient(180deg, #E3E8AF 0%, rgba(230, 176, 176, 0.947259) 10.73%, rgba(229, 231, 153, 0.898519) 27.4%, rgba(226, 178, 178, 0.852825) 43.02%, rgba(223, 219, 126, 0.46764) 48.23%, rgba(213, 186, 186, 0.53) 61.77%, rgba(212, 186, 186, 0.455208) 99.99%, rgba(196, 196, 196, 0) 100%);
-
+  background: linear-gradient(180deg, #E3E8AF 0%, rgba(230, 176, 176, 0.947259) 10.73%, rgba(229, 231, 153, 0.898519) 27.4%, rgba(226, 178, 178, 0.852825) 43.02%, rgba(223, 219, 126, 0.46764) 48.23%, rgba(213, 186, 186, 0.53) 61.77%, rgba(212, 186, 186, 0.455208) 99.99%, rgba(196, 196, 196, 0) 100%);
+;
 	
 
 	
@@ -25,6 +25,7 @@ body{
 	font-weight:bolder;
 	color: blueviolet;
 	letter-spacing: .4em;
+	text-shadow: 2px 3px #000;
 	font-family: 'Pacifico', cursive;
 	text-transform: capitalize;
 }
@@ -109,7 +110,7 @@ body{
 .namearea{
 	font-family: 'Pacifico', cursive;
 	font-size: 300%;
-
+	text-shadow: 3px 3px #ffffff;
 	font-weight: bolder;
 	margin-top: 100px;
 
@@ -118,7 +119,7 @@ body{
 .name{
 	font-size: 100%;
     font-family: 'Sacramento', cursive;
-   
+   text-shadow: 2px 2px #000000;
 	color: #185ADB;
 }
 
