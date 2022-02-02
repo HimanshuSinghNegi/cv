@@ -6,12 +6,12 @@
 
 body{
 	text-align: center;
-	font-family: 'Dongle', sans-serif;
-	font-weight: bolder;
+	font-weight: 300;
 }
 .top-container{
 	
 	width: auto;
+	text-align: center;
 	padding: 2px;
   	background: linear-gradient(180deg, #E3E8AF 0%, rgba(230, 176, 176, 0.947259) 10.73%, rgba(229, 231, 153, 0.898519) 27.4%, rgba(226, 178, 178, 0.852825) 43.02%, rgba(223, 219, 126, 0.46764) 48.23%, rgba(213, 186, 186, 0.53) 61.77%, rgba(212, 186, 186, 0.455208) 99.99%, rgba(196, 196, 196, 0) 100%);
 ;
@@ -69,9 +69,7 @@ body{
 .img3{
 	margin-top: 8%;
 	width: 100%;
-
-
- height: 60vh;
+	height: 60vh;
 
 }
 .img4{
@@ -87,25 +85,23 @@ body{
 .explore{
 	font-size: 200%;
 	font-family: 'Pacifico', cursive;
-	top: 59%;
+	text-shadow: 3px 2px #000000;
+	top: 54.5%;
 	left :30%;
 	right: 30%;
 	bottom: 30%;
 	animation: bounce;
-	animation-duration:5s;
+	animation-duration:5s; 
 	animation-iteration-count: infinite;
 	position: absolute;
 	color: #00A19D;
-	text-shadow: 3px 3px #000;
  	
 }
-
-
 
 .namearea{
 	font-family: 'Pacifico', cursive;
 	font-size: 300%;
-	text-shadow: 3px 3px #ffffff;
+	line-height: 1;
 	font-weight: bolder;
 	margin-top: 100px;
 
@@ -113,13 +109,16 @@ body{
 }
 .name{
 	font-size: 100%;
-    	font-family: 'Sacramento', cursive;
-  	color: #185ADB;
+    font-family: 'Sacramento', cursive;
+   	color: #185ADB;
 }
 
 .name:hover{
-	 color: blueviolet;
-	 }
+	 
+
+	color: blueviolet;
+	 
+}
 .middle-container{
 	padding: 10px 5px; 
 	width: auto;
@@ -127,13 +126,13 @@ body{
 	
 }
 hr{
-	border-color:grey;
+	
 	margin: 10px 40px;
-	border-style: dashed;
+	
 }
 .des
 {
-	margin-top: 30px;
+	margin-top:30px;
 }
 #ppic{
 
@@ -147,12 +146,54 @@ hr{
 
 
 .bottom-container{
-	height: 200px;
-	width: 200px;
-
-	top: 400px;
-	left: 400px;
-	
-	
-	background-color: blue;
+ 
 }
+
+.skills-row{
+	width: 50%;
+	text-align: left;
+	margin: 8% auto  0 auto;
+	line-height: 2;
+
+}
+h2{
+	font-size: 2em;
+}
+h3{
+	margin-top: 20px;
+	font-size: 1.8em;
+	margin-bottom: 10px;
+	color: deepskyblue;
+}
+
+.code-img{
+	width: 30%;
+	margin-right: 30px;
+	float: left;
+}
+
+.skills-row1{
+	width: 50%;
+	text-align: left;
+	margin: 8% auto  0 auto;
+	line-height: 2;
+
+}
+
+.code-img1{
+	width: 30%;
+	float: right;
+}
+.des1{
+	clear: left;
+}
+.des2{
+	clear: right;
+}
+
+bottom-container1{
+
+	
+}
+
+
